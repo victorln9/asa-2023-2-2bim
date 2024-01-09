@@ -1,11 +1,17 @@
 # DNS
 
 ## Instalação
+<<<<<<< HEAD
 Primeiro: instalar o **Bind9**
 
 $apt-get update
 
 $apt-get install bind9
+=======
+Primeiro: Instalar o *Bind9*
+  $ apt-get update
+  $ apt-get install bind9
+>>>>>>> refs/remotes/origin/main
 
 Segundo: Configurar o arquivo *Interfaces*
 
@@ -26,6 +32,7 @@ $nano /etc/hostname
 
 $init 6
 ## Configuração
+<<<<<<< HEAD
 Configurar o arquivo *named.conf.default-zones*
 
 $nano /etc/bind/named.conf.default-zones
@@ -64,6 +71,10 @@ desativar firewall do win
 
 Comandos úteis: systemctl restart bind9,systemctl status bind9
 
+=======
+Primeiro: Configurar o arquivo *Interfaces*
+  $ nano /etc/network/interfaces
+>>>>>>> refs/remotes/origin/main
 
 Incluir o(s) nome(s) e o conteúdo do(s) arquivo(s) de configuração.
 
